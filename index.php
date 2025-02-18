@@ -1,6 +1,5 @@
 <?php
 
-
 const API_URL = "https://whenisthenextmcufilm.com/api";
 #Llamadas a <Apis> comando para utilizar Apis curl "http..."
 #Inicializar una nueva sesión de cURL; ch = cURL handle
@@ -16,9 +15,6 @@ $result = curl_exec($ch);
 
 $data = json_decode($result, true);
 
-curl_close($ch);
-var_dump($data);
-
 ?>
 
 <head>
@@ -31,9 +27,6 @@ var_dump($data);
 </head>
 
 <main>
-<pre style="font-size: 8px; overflow:scroll; height: 250px;">
-    <?php var_dump($data); ?>
-</pre>
 <section>
 <h2 class="titulo">La próxima pelicula de Marvel</h2>
 
@@ -72,9 +65,11 @@ style="border-radius: 16px" />
         justify-content: center;
         text-align: center;
     }
+    
 
     .titulo {
         display: block;
+        margin-top: 50px;
     }
 
 </style>
