@@ -21,8 +21,8 @@ $data = json_decode($result, true);
     <title>La próxima película de Marvel</title>
     <meta name="description" content="La próxima película de Marvel" />
     <meta name="viewport" content="width=device-width, initial-scales=1.0" />
-    <link href="assets/adryo-icono.jpg" type="image/x-icon" rel="icon">
-    <link href="assets/adryo-icono.jpg" type="image/x-icon" rel="shortcut icon">
+    <link href="adryo-icono.jpg" type="image/x-icon" rel="icon">
+    <link href="adryo-icono.jpg" type="image/x-icon" rel="shortcut icon">
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
