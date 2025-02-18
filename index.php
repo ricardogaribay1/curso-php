@@ -46,12 +46,13 @@ $data = json_decode($result, true);
 
 <style>
     :root {
-        color-scheme: dark;
+        color-scheme: light dark;
     }
 
     body {
         display: grid;
         place-content: center;
+        background-color: black;
     }
 
     section {
